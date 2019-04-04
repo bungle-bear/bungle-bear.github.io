@@ -1,12 +1,12 @@
-**An Analysis of Shielding and Healing from a Scholar's Perspective**
+# An Analysis of Shielding and Healing from a Scholar's Perspective #
 
 By Felicific Calculus
 
-# Introduction #
+## Introduction ##
 
 I am a "Scholar main". I love this job. But I also feel that it is sometimes misunderstood. In particular, the Scholar's role as a provider of shields is often overemphasised. To be sure, shielding occupies a central page in the Scholar's spell book. Shields are awesome. They let us do things that cannot be achieved through ordinary healing. But they also have a downside: our shielding spells (*Adloquium* and *Succor*) are less efficient, in the sense that they cost more per potency, than our non-shielding healing abilities (*Excogitation*, *Indomitability*, etc.). The Scholar thus frequently faces a difficult decision: to shield or not to shield? My aim in this essay to shed some light on this thorny question. I shall offer an analysis of shielding and healing from a Scholar's perspective. Shielding and healing have more in common than is commonly supposed, but they also differ in two important respects. Understanding these differences helps us to identify situations in which shielding is the better option, but also situations where straight healing is to be preferred.
 
-# How Shielding is Like Healing #
+## How Shielding is Like Healing ##
 
 Let's begin with some fundamentals. A character's health is measured by *HP* (or "hit points"). This determines how much damage (or how many "hits") the character can take before dying. Shields effectively give a character more HP, increasing the amount of damage she can take, though this additional HP is not currently displayed in the game's UI. (I understand the UI may be updated in Shadowbringers to also show HP provided by shields, which will be a welcome improvement.) It is useful therefore to distinguish different types of HP. I will use the following terminology and abbreviations:
 
@@ -20,7 +20,7 @@ An important concept to grasp is that shielding is essentially just another form
 
 As an aside, this is why I dislike the "proactive vs reactive" healer dichotomy. Often it is said that Scholars specialise in "proactive" healing, whereas White Mages specialise in "reactive" healing. Scholars have to anticipate upcoming damage, while White Mages wait for damage to happen and then react to it. In fact, *all* good healing is preemptive. The entire point of healing is to ensure that the party will survive upcoming damage. If the damage stops coming, we can stop healing. Thus *all* healers, even White Mages, need to plan ahead. How much healing or shielding the party needs *now* is determined, not by the damage they have taken in the past, but by the damage they will take in the future. Suppose, for example, your party has just taken a big hit, reducing them all to around 10% HP. That looks scary. Your first instinct might be to top them up to 100% immediately. But if there won't be any more damage for another 30 seconds, then there's really no hurry. A HoT (healing over time) may be perfectly adequate in this situation.
 
-# Overhealing and Overshielding #
+## Overhealing and Overshielding ##
 
 Having emphasised the commonality between healing and shielding (both raise EHP), I should point out that there are nonetheless two important differences. As noted above, healing raises AHP and shielding raises VHP. Although AHP and VHP are both components of EHP, they work in different ways, and this creates differences between healing and shielding.
 
@@ -30,7 +30,7 @@ This does not mean, however, that shielding is always effective. For there is a 
 
 That overhealing is inefficient may be fairly widely recognised (though this doesn't stop some healers from doing it excessively). What is perhaps less widely known is that overshielding is equally bad. You might think that a shield is like *insurance*: it's good to have even when you don't have to use it. Even if your home never catches on fire, you might still be glad to have fire insurance. But there is a crucial difference here. Insurance derives its value from the fact that the future is *unpredictable*. If you can be certain that it never rains where you live, then it would be foolish for you to buy flood insurance. However, the encounters in this game are highly scripted, and most damage is therefore *predictable*. Of course your teammates will sometimes make mistakes and take damage they could have avoided. But even this is predictable to an extent. You needn't worry about your teammates accidentally standing in AoE damage when there is no AoE damage to stand in. And in any case, even in circumstances where insurance might be helpful, it doesn't follow that you should purchase it at *any* price. If shields were free, then shielding teammates against accidental damage would be entirely sensible. But shields are not free. So it is more a matter of weighing up costs and benefits. Is the probability of a teammate dying to accidental damage sufficiently high to justify the cost of a shield?
 
-# When Shields Shine #
+## When Shields Shine ##
 
 The first difference between AHP and VHP mentioned above (i.e., that only AHP is capped) means that shielding has an advantage over healing in two specific kinds of situation.
 
@@ -40,7 +40,7 @@ But there is also another less obvious type of situation in which shielding has 
 
 Why does this matter? Well, for various reasons, it may be less convenient, or perhaps even impossible, to heal Chucky in the time between the two attacks. For example, you might have to be moving to dodge mechanics between the two attacks, making it more difficult to cast a heal. Or Chucky might have to move outside of your healing range. Or the first attack might also inflict a healing debuff on Chucky, so that healing her before the first attack will be more potent than healing her after. Or it could be that the boss is invulnerable before the first attack, so you have nothing better to do then.
 
-# Benefits and Costs #
+## Benefits and Costs ##
 
 So shielding gives you more flexibility than healing. To shield effectively, you needn't wait until after your party has taken damage. For this reason, it is perhaps true to say that, *other things being equal*, shielding is better than healing. However, because the game developers know this, they have ensured that other things generally are *not* equal. Shielding is less efficient than healing.
 
@@ -50,7 +50,7 @@ To emphasise this last point, let's consider a revised version of the Chucky exa
 
 I should add an important caveat here. The discussion above assumes that, as a Scholar, you face a choice between shielding and healing. But sometimes this is not the case. Most of your oGCD healing abilities have long cooldowns (*Lustrate* is an exception), and they require Aetherflow stacks. You may, for example, find yourself in a situation where your party needs healing *now* but either *Indomitability* is on cooldown or you have no Aetherflow stacks. In this case, *Succor* may be your only option. (*Emergency Tactics* + *Succor* may also be an option here.)
 
-# Conclusion #
+## Conclusion ##
 
 Neither healing nor shielding is better than the other in all situations. Each has its advantages and disadvantages compared to the other. Whether to shield or not to shield depends on the specific situation. This is good, because it means that Scholars have to think about what they're doing. They have to plan ahead and decide on what is the best tool for the situation, rather than blindly spamming *Succor* all the time. This adds depth and complexity to the job, making it more engaging, challenging, and rewarding to play. And this is why I love the job.
 
