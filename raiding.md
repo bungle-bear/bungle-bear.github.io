@@ -1,22 +1,5 @@
 # FFXIV Savage Raiding for Beginners #
 
-<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
-**Table of Contents**
-
-- [Introduction](#introduction)
-- [Why Raid?](#why-raid)
-- [Mechanics](#mechanics)
-- [Your Rotation](#your-rotation)
-- [Evaluating Your Performance](#evaluating-your-performance)
-- [Some Brief Advice for Healers](#some-brief-advice-for-healers)
-- [Group Coordination](#group-coordination)
-- [Resources](#resources)
-- [Conclusion](#conclusion)
-
-<!-- markdown-toc end -->
-
-## Introduction ##
-
 I'm fairly new to savage raiding,
 having started properly only in the most recent raid tier, Alphascape.
 But I've quickly found that I enjoy it immensely.
@@ -30,6 +13,20 @@ Nonetheless,
 I hope I'm in a good position to give some advice to beginners,
 since I recently was one myself.
 This is what I aim to do below.
+
+I'll discuss the following topics:
+
+<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
+
+- [Why Raid?](#why-raid)
+- [Mechanics](#mechanics)
+- [Your Rotation](#your-rotation)
+- [Evaluating Your Performance](#evaluating-your-performance)
+- [Some Brief Advice for Healers](#some-brief-advice-for-healers)
+- [Group Coordination](#group-coordination)
+- [Resources](#resources)
+
+<!-- markdown-toc end -->
 
 ## Why Raid? ##
 
@@ -124,7 +121,7 @@ You can see this by looking at the boss's "cast bar",
 which is displayed as a component of the "target bar"
 when the boss is targeted.
 By default it's located at the top of the screen,
-but this can be customised.
+but this can be [customised](https://na.finalfantasyxiv.com/uiguide/).
 You can make it larger, or move it to somewhere more prominent.
 You should get into the habit of frequently glancing at the boss's cast bar.
 (If you're a healer, you can set the boss as your "focus target",
@@ -209,8 +206,8 @@ Eventually you may have gear so powerful that you can clear a raid
 merely by doing the mechanics, without worrying much about your rotation.
 If you have a fairly casual approach to raiding (see above),
 then this may be good enough for you.
-But I'm going to assume that you want to do better than this,
-that you want to be able to clear raids without relying on being "over-geared".
+But I'm going to assume
+that you want to be able to clear raids without being "over-geared".
 To achieve this, you *will* need to work on your rotation.
 
 An important part of mastering your rotation is *understanding* all your abilities.
@@ -223,7 +220,7 @@ An important distinction here is between abilities that are
 "on" or "off" the global cooldown (GCD or oGCD).
 How do different abilities work together?
 With all this information,
-you can start to see what a good rotation might be.
+you can start to see what a good rotation might look like.
 But there's no need to reinvent the wheel.
 For all jobs, clever people have already worked out the optimal rotation(s).
 You can benefit from this work by looking up a guide for your job.
@@ -233,7 +230,7 @@ Merely knowing your rotation is one thing;
 being able to consistently execute it in a raid is quite another.
 Remember, you're going to have your hands full
 dealing with all the tricky mechanics being thrown at you (see above).
-And the first rule of optimisation is the "ABC" rule: Always Be Casting!
+And the first rule of optimisation is "ABC": Always Be Casting!
 You should be constantly keeping your global cooldown "rolling",
 with no pauses between GCDs.
 When you need to use an oGCD, you should ideally "weave" this.
@@ -264,19 +261,17 @@ this is difficult because you need to stand still to cast many of your spells.
 For melee classes,
 this is difficult because you may be forced out of melee range
 or out of position for your positionals.
-(Perhaps the one sub-class that is least hindered by movement
-is the "ranged physical" DPS.)
 Learning a raid can be helpful here too.
 With repeated practise,
 you'll get to see at what stage of your rotation various mechanics occur.
-You can then make small adjustments to your rotation in order to accommodate this.
-You can also develop some general strategies for dealing with movement.
+You can then make small adjustments to your rotation in order to accommodate movement.
+You can also develop some general strategies for dealing with this.
 For example, Black Mages can use Triple Cast and all casters can use Swiftcast.
 These abilities essentially convert spells with cast times
 into instant-cast spells, so they can be cast while moving.
 Everyone can use Sprint,
 and some classes can use "gap-closers", jumps and dashes,
-to move around more rapidly (Black Mages can even teleport).
+to move around more rapidly.
 And melee classes can use True North
 to get their positionals even when out of position.
 All of these abilities have long cooldowns,
@@ -293,9 +288,10 @@ In the case of mechanics, you'll get pretty immediate feedback.
 If you did it wrong, then you (or someone else) will probably be dead.
 In the case of your rotation, however, feedback is less immediate.
 This can be hard to assess during the fight itself.
-In the heat of battle, many mistakes can go unnoticed.
+In the heat of battle, many mistakes go unnoticed.
 The only reliable way to evaluate your performance
-is by using a tool called ACT (Advanced Combat Tracker).
+is by using a tool called [ACT](https://advancedcombattracker.com/)
+(Advanced Combat Tracker).
 This basically records all the events that occur during a fight,
 and then generates various useful statistics.
 It can tell your DPS, or your HPS (Healing Per Second),
@@ -307,9 +303,10 @@ can be uploaded to a website, [FFLogs](https://fflogs.com),
 which maintains a large database of logs.
 You can use this to compare your own logs with those of other players on the same job.
 There's another website, [xivanalysis.com](http://xivanalysis.com),
-which provides automated feedback on logs.
-I've found this to be quite helpful.
-But you may gain more insight by carefully studying your own logs,
+which provides automated job-specific feedback on logs.
+I've found this to be helpfu,
+but the feedback is fairly basic and generic.
+You might gain more insight by carefully studying your own logs,
 or by showing them to an expert.
 (You need to be playing on PC to install ACT.
 So if you're on PS4, it would be advisable to raid with a friend on PC
@@ -330,8 +327,7 @@ presumably in order to focus on mechanics.
 I hadn't even been aware that I was doing this.
 Possessed with this knowledge, I was then able to focus on improving my CPM.
 That's just one small example.
-Even now, although I'm basically competent at my job
-(I guess I could be considered above average),
+Even now, although I'm basically competent at my job,
 when I look at my logs, I still see lots of mistakes and things I could improve.
 
 (I should warn you that ACT is not officially endorsed by the game's developers,
@@ -401,19 +397,25 @@ So even if they are currently at low health,
 healing them can wait until after you've attended to more important matters
 (like doing DPS).
 
-Fourth, healing during "progression",
-when your party is still learning a raid,
-should be more conservative.
-Players will inevitably make mistakes
-and take damage that they could have avoided.
-It's not acceptable to simply let them die
+Fourth, healers need to be flexible.
+Damage in raids can be divided into two categories.
+First, there is *avoidable* damage,
+which only affects players when they fail mechanics.
+Second, there is *unavoidalbe* damage,
+which affects players no matter what they do.
+Unavoidable damage is very predictable,
+and so it's advisable to work out a plan for healing this.
+But avoidable damage is less predictable,
+because it depends on players' actions.
+Therefore, although it's good to have a healing plan,
+you shouldn't stick too rigidly to it.
+It's not acceptable to simply let people die
 and then blame them for failing the mechanics.
 Even if you're not the one at fault,
 you will serve your party and yourself better
 if you do what you can to keep them alive,
-even if this mean healing in a sub-optimal way.
-
-I could go on and on, but tha't probably enough for starters.
+even if this means departing from your optimal healing plan.
+As they say, "healers adjust".
 
 ## Group Coordination ##
 
@@ -433,6 +435,8 @@ These may provide benefits for everyone in the party,
 not just for the player who uses them.
 Raids buffs are most effective when they are well coordinated.
 So this provides another avenue for group coordination.
+(Generally speaking, you can use your raid buffs "on cooldown".
+Their cooldowns are such that they will natrually align with each other.)
 
 I won't go into more detail here,
 because some of these topics are too advanced for a beginners' guide.
@@ -455,28 +459,46 @@ You can have fun too.
 
 Again, I don't want to insist that this is the only way to raid
 or that it's right for everybody.
-You may feel more comfortable going it alone with PUGs in Party Finder.
+You may feel more comfortable going it alone with PUGs.
 This is a completely viable approach too.
 When it goes well,
 it's pretty amazing how well a group of players can coordinate
 with only minimal communication.
 Unfortunately, it often doesn't go well.
-So if you take the PF route, you should be prepared
+So if you take the PUG route, you should be prepared
 for a certain amount of frustration.
 
 ## Resources ##
 
-The Balance
+The advice I've given above
+barely scratches the surface of savage raiding.
+Below I list a few useful online resources for further guidance.
 
-Ariyala's
-
-Momo's youtube
-
-Twitch
-
-
-## Conclusion ##
-
-Okay, that's all I've got for now.
-I hope someone will find this advice useful.
-And I hope that others might come to enjoy savage raiding as much as I do.
+- Perhaps the best resource is
+  [The Balance](https://thebalanceffxiv.com/).
+  This website provides guides to fights and jobs.
+  It also has a link to The Balance discord server,
+  which has channels devoted to different roles, jobs, and encounters.
+  Here you can ask questions and get advice from experts.
+  My own experience, mainly in the Scholar channels, has been very positive.
+- My favourite FFXIV youtuber is
+  [Momo Sama](https://www.youtube.com/channel/UCCeZs3jzn0qmnLAO3NWNt1g). 
+  He has some amazing "healer optimisation" guides
+  (which may be of interest even to non-healers,
+  because they show the level of planning that the "pros" use).
+  He also has "opener" guides for many other jobs.
+- For raid guide videos
+  [MTQCapture](https://www.youtube.com/user/MTQcapture) (Mizzteq)
+  is pretty good,
+  though you may find yourself in parties that don't use
+  exactly the same strategies you see in these guides.
+  (Also she has good puns.)
+- At some point, you'll want to start thinking about your gear (and materia). 
+  Guides to "BiS" (Best in Slot) gear sets for each job can be found in
+  the appropriate channels on The Balance discord (see above).
+  A useful tool for thinking about gear is
+  [Ariyala's Final Fantasy XIV Toolkit](http://ffxiv.ariyala.com/).
+- Helpful instructions for installing ACT are available
+  [here](https://gist.github.com/TomRichter/e044a3dff5c50024cf514ffb20a201a9).
+- You can admire your orange parses at [FFLogs](https://www.fflogs.com/),
+  or see why they're grey at [xivanalysis.com](https://xivanalysis.com/).
