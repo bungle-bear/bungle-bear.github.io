@@ -1,5 +1,6 @@
 ---
 title: Savage Raiding for Beginners
+layout: post
 ---
 
 # Savage Raiding for Beginners #
