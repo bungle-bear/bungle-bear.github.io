@@ -1,3 +1,7 @@
+---
+title: Savage Raiding for Beginners
+---
+
 # Savage Raiding for Beginners #
 
 I'm fairly new to savage raiding,
