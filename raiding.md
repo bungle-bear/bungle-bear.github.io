@@ -1,56 +1,82 @@
----
-title: Savage Raiding for Beginners
-layout: post
----
+# FFXIV Savage Raiding for Beginners #
 
-# Savage Raiding for Beginners #
+<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
+**Table of Contents**
+
+- [Introduction](#introduction)
+- [Why Raid?](#why-raid)
+- [Mechanics](#mechanics)
+- [Your Rotation](#your-rotation)
+- [Evaluating Your Performance](#evaluating-your-performance)
+- [Some Brief Advice for Healers](#some-brief-advice-for-healers)
+- [Group Coordination](#group-coordination)
+- [Resources](#resources)
+- [Conclusion](#conclusion)
+
+<!-- markdown-toc end -->
+
+## Introduction ##
 
 I'm fairly new to savage raiding,
 having started properly only in the most recent raid tier, Alphascape.
 But I've quickly found that I enjoy it immensely.
-It is by far my favourite thing to do in the whole game.
-I've sunk hours and hours into raiding,
-both in my static, Sweet Moves,
-and in "PUG" parties formed using Party Finder.
+It's by far my favourite thing to do in the whole game.
+I've sunk many hours into raiding,
+both in my static, Sweet Moves, and in "PUGs".
 And I keep coming back for more.
-Although I feel that I've learned a lot about raiding,
+Although I've learned a lot about raiding,
 I still wouldn't consider myself an expert.
-Nonetheless, I hope that I'm in a good position to give some advice
-to beginners, since I recently was one myself.
-This is what I'll try to do below.
+Nonetheless,
+I hope I'm in a good position to give some advice to beginners,
+since I recently was one myself.
+This is what I aim to do below.
 
-The main topics I'll cover are the following:
+## Why Raid? ##
 
-1. Reasons for Raiding
-2. Mechanics
-3. Your rotation
-4. Evaluating your performance
-5. Some brief advice for healers
-6. Group Coordination
+I'm going to assume that you're already basically familiar with raids in FFXIV.
+A raid is an encounter in which a party of eight players battles against
+a single powerful enemy, called the "boss".
+(There may be additional weaker enemies, commonly referred to as "adds",
+and occasionally there may be more than one boss.)
+To successfully "clear" a raid, you simply have to kill the boss.
+Raids come in two levels of difficulty.
+Each raid has both a "normal" and a "savage" version.
+A savage raid generally has the same setting, same boss,
+and many of the same attacks as its normal counterpart.
+However, it is considerably more difficult in various ways:
+mainly, it has a more demanding DPS requirement, enforced by an "enrage",
+and the mechanics are more complicated.
+(The game also includes 24-player "Alliance" raids.
+I won't be discussing those here.)
+If someone describes herself as a "raider", or says that she is "into raiding",
+this is normally taken to refer to *savage* raiding.
+I'm going to follow this convention below.
 
-## Reasons for Raiding ##
-
-As with most other content in the game,
-players may have different reasons for raiding.
-They may be trying to achieve different goals.
+So why might you want to get into raiding?
+A point I want to emphasise is that,
+as with most other content in the game,
+players may have different reasons for raiding,
+and may be trying to achieve different goals.
 At the more "casual" end of the spectrum,
-some players are content merely to be able to successfully "clear" raids.
+some players are satisfied merely to be able to clear raids.
 For these players,
-the main focus may be simply learning mechanics (see the next session).
+the main focus may be simply learning [mechanics](#mechanics).
 At the opposite end of the spectrum,
-more serious or "hardcore" raiders aim to achieve more than this.
+more serious or "hardcore" raiders aim to achieve more.
 They want to clear raids as quickly and efficiently as possible.
 They strive to optimise their performance and maximise their DPS.
-(These are the guys going after "orange parses" on FFLogs.)
 These players will focus not only on mechanics
-but also on perfecting their rotation (see the section after next).
+but also on perfecting their [rotation](#your-rotation).
 And many players will fall somewhere in the middle of this spectrum.
 
 Of course, there is no single "right" way to approach raiding.
 As long as you enjoy what you're doing, that's completely fine in my book.
-But this may be relevant for the advice I give below.
-If you're happy to take a more casual approach,
-then some of the advice in later sections may be less applicable to you.
+Sadly, you may encounter some elitist raiders who look down upon casuals,
+but, as in life generally, you shouldn't pay attention to jerks.
+The reason I mention these different approaches here
+is that this may be relevant to the advice I give below.
+If you're happy to take a casual approach,
+some of the advice in later sections may be less applicable to you.
 
 ## Mechanics ##
 
@@ -71,14 +97,12 @@ For example, players may be randomly inflicted with various debuffs,
 and the appropriate action depends on who has which debuff.
 
 The complexity of mechanics means that you need to *learn* a raid.
-Like other encounters in this game,
-savage raids are highly scripted.
-The mechanics occur in a predictable order at predictable times.
-You can partially learn a fight by consulting a guide.
-But the best way to learn a raid is just by doing it,
-over and over again.
-I can think of many mechanics which at first seemed very difficult
-but later became largely trivial after lots of practise.
+Raids are highly scripted:
+the mechanics occur in a predictable order at predictable times.
+You can partially learn a raid by consulting a guide.
+But the best way is by actually doing the raid, over and over again.
+I can recall many mechanics which at first seemed very difficult
+but later became trivial after lots of practise.
 Learning a raid is usually an incremental affair.
 At first, you might barely be able to get past the first few mechanics.
 Then after a while,
@@ -86,29 +110,31 @@ you become comfortable with these and start working on the next set of mechanics
 Raids can generally be divided in to several distinct phases.
 You will often be in the position of being able to do, say,
 the first two phases, but still need to practise the third.
-(If you're going to join a party in Party Finder for the purpose
-of learning a raid, then please ensure that you only join appropriate parties.
+(If you use Party Finder, then please only join appropriate parties.
 Don't join a party that is practising the second phase
-if you're still not comfortable with the first.
-People who do this kind of thing are very bad.)
+when you're still not comfortable with the first.
+If you do this,
+you will just be wasting other people's time, which is very selfish.)
 
-Another thing you can do to help with mechanics
-is to pay careful attention to the information provided in the game's HUD.
-Most important is the boss's "cast bar".
-This is displayed as a component of the "target information"
-when you have the boss targeted.
+A key skill for dealing with mechanics is being *observant*,
+paying attention to what's going on.
+You need to know what's about to happen so you can react correctly.
+Often a mechanic will be initiated by the boss casting an ability.
+You can see this by looking at the boss's "cast bar",
+which is displayed as a component of the "target bar"
+when the boss is targeted.
 By default it's located at the top of the screen,
 but this can be customised.
 You can make it larger, or move it to somewhere more prominent.
-The cast bar tells you what's coming next.
-This is often your best cue for the incoming mechanics.
 You should get into the habit of frequently glancing at the boss's cast bar.
 (If you're a healer, you can set the boss as your "focus target",
 so you can still see what he's going to do
 even when you have to target another player for healing.)
-This will also help you to learn the names of the various abilities
-used by the boss during the raid,
-which is useful for discussing strategy with other players.
+But you need to be careful here.
+Bosses sometimes also have abilities that are not cast,
+but instead are indicated by an animation.
+The boss will move in some characteristic way before using the ability.
+So you need to keep an eye on boss too.
 Another good source of information is the party list,
 which shows, among other things, any debuffs that players have.
 Some raids may have an "add" phase
@@ -119,16 +145,25 @@ it's helpful to look at the "enemy list",
 which shows cast bars for all the enemies.
 This is useful because obviously you cannot have more than one enemy
 targeted at a time.
+All of this becomes easier after you're learned a raid.
+You'll get a sense for where you need to be looking at different times
+to get that vital information.
 
-The key skills here are being *observant*, paying attention to what's going on,
-and *thinking ahead* to what's coming next,
+Another important skill is *anticipation*.
+You need to be *thinking ahead* to what's coming next,
 so you're not caught off guard by an unexpected mechanic.
 A lot of raiding is about *positioning*,
 being in the right place at the right time.
 If you anticipate where you'll need to be for the next mechanic,
 you're less likely to find yourself in the wrong place.
-And, as I've stressed above,
-to be able to anticipate mechanics, you have to learn the fight.
+Mechanics that involve random events often require you to react *quickly*.
+This is harder to do if you have to spend time thinking about the appropriate
+reaction *after* the random event has occurred.
+It is helpful therefore to mentally prepare for these mechanics:
+"The boss about to do either A or B;
+if he does A, I'll do X; if he does B, I'll do Y".
+Obviously, learning a raid is essential for anticipation.
+You need to know the script to anticipate the next act.
 
 ## Your Rotation ##
 
@@ -140,7 +175,7 @@ the boss will cast a lethal attack that is impossible to survive.
 If you haven't killed the boss by this time,
 then you've failed.
 It's time to start again from the beginning.
-This means that your raid party must collectively
+This means your party must collectively
 output a certain minimum amount of damage, or "DPS" (Damage Per Second),
 in order to clear.
 Just staying alive by doing all the mechanics correctly
@@ -178,8 +213,7 @@ But I'm going to assume that you want to do better than this,
 that you want to be able to clear raids without relying on being "over-geared".
 To achieve this, you *will* need to work on your rotation.
 
-An important part of mastering your rotation
-is simply *understanding* all your abilities.
+An important part of mastering your rotation is *understanding* all your abilities.
 What exactly do they do?
 What effects do they have?
 How potent are they?
@@ -226,18 +260,27 @@ Another part of the difficulty is that doing mechanics requires *movement*.
 Doing your rotation while standing in one place is easy enough.
 But mechanics generally force you to move.
 For "casters",
-this is difficult because abilities with non-zero cast times
-simply cannot be used while moving.
-For melee classes, this is difficult
-because they may be forced out of melee range,
-or prevented from being in position to use their positionals.
+this is difficult because you need to stand still to cast many of your spells.
+For melee classes,
+this is difficult because you may be forced out of melee range
+or out of position for your positionals.
+(Perhaps the one sub-class that is least hindered by movement
+is the "ranged physical" DPS.)
 Learning a raid can be helpful here too.
 With repeated practise,
 you'll get to see at what stage of your rotation various mechanics occur.
 You can then make small adjustments to your rotation in order to accommodate this.
 You can also develop some general strategies for dealing with movement.
-For example, Black Mages can use Triple Cast,
-all casters can use Swiftcast, Scholars can use Ruin II and Energy Drain, and so on.
+For example, Black Mages can use Triple Cast and all casters can use Swiftcast.
+These abilities essentially convert spells with cast times
+into instant-cast spells, so they can be cast while moving.
+Everyone can use Sprint,
+and some classes can use "gap-closers", jumps and dashes,
+to move around more rapidly (Black Mages can even teleport).
+And melee classes can use True North
+to get their positionals even when out of position.
+All of these abilities have long cooldowns,
+so you'll want to plan when to use them.
 
 ## Evaluating Your Performance ##
 
@@ -290,6 +333,14 @@ That's just one small example.
 Even now, although I'm basically competent at my job
 (I guess I could be considered above average),
 when I look at my logs, I still see lots of mistakes and things I could improve.
+
+(I should warn you that ACT is not officially endorsed by the game's developers,
+Square Enix.
+Strictly speaking, it contravenes the Terms and Conditions.
+But, unofficially, they turn a "blind eye" to its use,
+provided people do not use it to be "toxic" to other players.
+I'd advise you to refrain from discussing parses in the in-game chat entirely,
+otherwise you risk a ban.)
 
 ## Some Brief Advice for Healers ##
 
@@ -412,6 +463,17 @@ with only minimal communication.
 Unfortunately, it often doesn't go well.
 So if you take the PF route, you should be prepared
 for a certain amount of frustration.
+
+## Resources ##
+
+The Balance
+
+Ariyala's
+
+Momo's youtube
+
+Twitch
+
 
 ## Conclusion ##
 
